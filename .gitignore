@@ -1,0 +1,11 @@
+# Node / npm
+node_modules/
+npm-debug.log*
+
+# Sass Cache
+.sass-cache/
+*.css.map
+
+# System files
+.DS_Store
+Thumbs.db
