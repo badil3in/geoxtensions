@@ -1,0 +1,61 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+@import "variables";
+@import "bootstrap-overrides";
+@import "resets";
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+footer {
+    font-size: smaller !important;
+}
+
+hr {
+    margin: auto;
+}
+
+nav {
+    box-shadow: 0 .5rem 1rem #00000026, inset 0 -1px #ffffff26;
+}
+
+nav div .navbar-collapse {
+    flex-grow: 0 !important;
+}
+
+svg {
+    width: 24px;
+    height: 24px;
+    fill: #adb5bd;
+    vertical-align: sub;
+}
+
+.underline-highlight {
+    height: 4px;
+    border: none; 
+    background-color: #f97316;
+    margin: 0;
+    width: 80px;
+}
+
+.my-input:focus {
+    border-color: #f97316;
+    box-shadow: 0 0 0 0.25rem rgba(64, 20, 0, 0.125);
+}
+
+.card {
+    height: 100%;
+    svg {
+        height: 16px;
+        width: 16px;
+    }
+}
+
+.card-img-top {
+    height: 136px;
+}
+
+.card-body {
+    height: 224px;
+    overflow-x: hidden;
+}

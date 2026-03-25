@@ -16,11 +16,11 @@ async function render() {
         // fetch modules from JSON file
         context.modules = await fetch('/static/JSON/modules.JSON').then(r => r.json())
     }
-    console.log("Modules JSON:", context.modules);
 
     // context an nunjucks übergeben
     const html = await nunjucks.render(`${page}.njk`, context);
     document.getElementById('app').innerHTML = html;
+    console.log("Render:", `${page}.njk`);
 
     activeNav(page);
 }

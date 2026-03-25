@@ -2,6 +2,7 @@
     {
         "number": 1,
         "name": "Standardmodul",
+        "summary": "3D-Polylinien, Textobjekte mit Rahmen, Notizen, Funktionen zur Bearbeitung von Zeichenobjekten",
         "description": [
             {
                 "text": "Xt3dPolylinie", 
@@ -37,6 +38,7 @@
     {
         "number": 2,
         "name": "Alkismodul",
+        "summary": "Katasterdaten verwalten, Eigentümerlisten erstellen, Lagepläne erstellen",
         "description": [
             {
                 "text": "Import und Verwaltung der Katasterdaten aus einer xml",
@@ -63,7 +65,8 @@
     },
     {
         "number": 3,
-        "name": "Verwaltung/Managementmodul",
+        "name": "Verwaltungs-, Managementmodul",
+        "summary": "Layer-, Layout- Projektverwaltung",
         "description": [
             {
                 "text": "Erweiterte Layerverwaltung",
@@ -82,7 +85,8 @@
     },
     {
         "number": 4,
-        "name": "Vermessungmodul (beinhaltet zusätzlich alle anderen Module)",
+        "name": "Vermessungmodul",
+        "summary": "beinhaltet zusätzlich alle anderen Module - Vermessungspunkte, Übergangsbögen, Beschriftungen, Oberflächenabrechung, Rahmen, Schacht-/Kanaldaten uvm.",
         "description": [
             {
                 "text": "Vermessungspunkte",

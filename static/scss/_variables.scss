@@ -1,0 +1,22 @@
+$font-families: (
+    "headlines": "Space Grotesk",
+    "body": "Inter",
+    "label": "Inter");
+
+
+// Grundfarben
+$custom-colors: (
+    "magic-primary": #0F172A,
+    "magic-secondary": #64748B,
+    "magic-tertiary": #F1F5F9,
+    "magic-accent": #F97316
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+// // Abstufungen (hell/dunkel)
+// $magic-primary-light:  lighten($magic-primary, 20%);
+// $magic-primary-dark:   darken($magic-primary, 15%);
+
+// $magic-secondary-light: lighten($magic-secondary, 20%);
+// $magic-secondary-dark:  darken($magic-secondary, 15%);

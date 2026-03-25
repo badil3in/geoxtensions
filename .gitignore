@@ -1,6 +1,8 @@
 # Node / npm
 node_modules/
 npm-debug.log*
+package-lock.json
+package.json
 
 # Sass Cache
 .sass-cache/
