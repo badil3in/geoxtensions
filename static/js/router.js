@@ -1,5 +1,5 @@
 // configure nunjucks
-nunjucks.configure('./templates', { 
+nunjucks.configure('./GeoXtensions/templates', { 
     autoescape: true,
     async: true 
 });
