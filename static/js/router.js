@@ -13,7 +13,7 @@ async function render() {
 
     if (page === "modules") {
         // fetch modules from JSON file
-        context.modules = await fetch('/static/JSON/modules.JSON').then(r => r.json())
+        context.modules = await fetch('https://badil3in.github.io/GeoXtensions/static/JSON/modules.JSON').then(r => r.json())
     }
 
     // context an nunjucks übergeben
@@ -41,7 +41,7 @@ document.addEventListener('click', function(event) {
     if(navbar.classList.contains('show') 
         && !navbar.contains(event.target) 
         && !toggler.contains(event.target)) {
-            
+
         // click auf toggler auslösen
         toggler.click();
     }
