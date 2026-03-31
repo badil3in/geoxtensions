@@ -1,8 +1,9 @@
 $font-families: (
-    "headlines": "Space Grotesk",
+    "brand": "Space Grotesk",
     "body": "Inter",
-    "label": "Inter");
+    "label": "Source Code Pro");
 
+$brand-font: map-get($font-families, "brand");
 
 // Grundfarben
 $custom-colors: (
@@ -33,4 +34,14 @@ $magic-accent-light: lighten($magic-accent, 20%);
 $magic-accent-dark:  darken($magic-accent, 15%);
 
 $border-radius: 0.1rem;
+$border-radius-lg: 0.1rem;
+$border-color: $magic-secondary;
+
+$navbar-toggler-border-color: $magic-secondary;
+
+$btn-padding-x: 0.5rem;
+$btn-padding-y: 0.325rem;
+$btn-padding-x-lg: 0.5rem;
+$btn-padding-y-lg: 0.3rem;
+
 $modal-content-border-radius: $btn-border-radius;
