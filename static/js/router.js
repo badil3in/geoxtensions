@@ -13,7 +13,10 @@ async function render() {
 
     if (page === "modules") {
         // fetch modules from JSON file
-        context.modules = await fetch('https://badil3in.github.io/GeoXtensions/static/JSON/modules.JSON').then(r => r.json())
+        // Githubpages
+        context.modules = await fetch('https://badil3in.github.io/geoxtensions/static/JSON/modules.JSON').then(r => r.json())
+        // local
+        // context.modules = await fetch('/static/JSON/modules.JSON').then(r => r.json())
     }
 
     // context an nunjucks übergeben
