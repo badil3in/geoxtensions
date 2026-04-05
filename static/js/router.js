@@ -15,7 +15,7 @@ async function render() {
     if (page === "modules"){
         // fetch modules from JSON file
         // Githubpages
-        context.modules = await fetch('https://badil3in.github.io/geoxtensions/static/JSON/modules.JSON').then(r => r.json())
+        context.modules = await fetch('https://badil3in.github.io/geoxtensions/static/JSON/modules.JSON')
         // local
         // context.modules = await fetch('/static/JSON/modules.JSON')
         .then(r => r.json())
