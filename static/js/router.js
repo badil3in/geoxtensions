@@ -17,14 +17,15 @@ async function render() {
         // Githubpages
         context.modules = await fetch('https://badil3in.github.io/geoxtensions/static/JSON/modules.JSON').then(r => r.json())
         // local
-        // context = await fetch('/static/JSON/modules.JSON').then(r => r.json())
+        // context.modules = await fetch('/static/JSON/modules.JSON')
+        .then(r => r.json())
     }
     console.log("pre data :", context.modules)
 
     // context an nunjucks übergeben
     const html = await nunjucks.render(`${page}.njk`, {
         isSearch: false,
-        modules: context}, function (err, html) {
+        modules: context.modules}, function (err, html) {
         document.getElementById('app').innerHTML = html;
 
         activeNav(page);
