@@ -12353,15 +12353,15 @@ nav div .navbar-collapse {
 }
 
 #carousel-image1 {
-  background-image: url(/static/img/generic-img.webp);
+  background-image: url(/geoxtensions/static/img/generic-img.webp);
 }
 
 #carousel-image2 {
-  background-image: url(/static/img/generic-img2.webp);
+  background-image: url(/geoxtensions/static/img/generic-img2.webp);
 }
 
 #carousel-image3 {
-  background-image: url(/static/img/generic-img3.webp);
+  background-image: url(/geoxtensions/static/img/generic-img3.webp);
 }
 
 .module-buttons {
